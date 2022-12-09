@@ -1,0 +1,127 @@
+@import './global.scss';
+
+
+.signupLeft{
+    background-color: #FBCDB8;
+    width: 30%;
+    border-radius: 34px 0px 0px 34px;
+}
+
+.signupImg{
+    height: 650px;
+    width: 100%;
+}
+.signup-formContainer {
+    background-color: white;
+    width: 65%;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 34px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login{
+    color: $warning-color-800;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 40px;
+
+}
+.login:hover{
+    color: $warning-color-700;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subHead {
+    opacity: 1;
+    color: rgba(11, 14, 31, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    opacity: 1;
+    color: $secondary-color-700;
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.signup-input {
+    border-radius: 8px;
+    border: 1px solid rgba(221, 227, 236, 1);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 15vw;
+    padding: 12px;
+    margin: 10px 0px 10px 0px;
+}
+
+.btnHolder {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 93%;
+}
+
+.signupBtn {
+    border-radius: 25px;
+    opacity: 1;
+    background-color:  $primary-color-400;
+    border: 0;
+    color: white;
+    font-size: small;
+    padding: 16px;
+    width: 150px;
+    margin-top: 50px;
+}
+.form{
+    margin-top: 50px;
+}
+
+.signupBtn:hover {
+    background-color: $primary-color-600;
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+    background-color: white;
+}
+
+/*Mailing and working details */
+
+.chooseFile {
+    opacity: 1;
+    color: rgba(11, 14, 31, 1);
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 1;
+    background-color: rgba(221, 227, 236, 1);
+}

@@ -1,0 +1,14 @@
+//mobile responsive handler
+
+
+@media screen and (max-width:1024px) {
+    .leftHalf{
+        display: none;
+    }
+    .formContainer{
+        width: 90% !important;
+    }
+    .input{
+        width: 95%;
+    }
+}

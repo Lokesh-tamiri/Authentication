@@ -1,0 +1,74 @@
+//imports
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import './responsive.scss';
+
+//Color pallette
+$primary-color-100: #D6F9E1;
+$primary-color-200: #AFF4CB;
+$primary-color-300: #81DEAF;
+$primary-color-400: #5ABD95;
+$primary-color-500: #2C9273;
+$primary-color-600: #207D6A;
+$primary-color-700: #166960;
+$primary-color-800: #0E5453;
+$primary-color-900: #084046;
+
+
+$secondary-color-100: #C5CEE0;
+$secondary-color-200: #8F9BB3;
+$secondary-color-300: #2E3A59;
+$secondary-color-400: #222B45;
+$secondary-color-500: #192038;
+$secondary-color-600: #151A30;
+$secondary-color-700: #101426;
+
+
+$success-color-100: #E1F8CF;
+$success-color-200: #BFF1A2;
+$success-color-300: #8BD76D;
+$success-color-400: #5AAF43;
+$success-color-500: #237A16;
+$success-color-600: #146810;
+$success-color-700: #0B570D;
+$success-color-800: #07460D;
+$success-color-900: #043A0E;
+
+$info-color-100: #F2F8FF;
+$info-color-200: #C7E2FF;
+$info-color-300: #94CBFF;
+$info-color-400: #42AAFF;
+$info-color-500: #3858F7;
+$info-color-600: #006FD6;
+$info-color-700: #0057C2;
+$info-color-800: #0041A8;
+$info-color-900: #002885;
+
+$warning-color-100: #FFFDF2;
+$warning-color-200: #FFF1C2;
+$warning-color-300: #FFE59E;
+$warning-color-400: #FFC94C;
+$warning-color-500: #FFAA00;
+$warning-color-600: #DB8B00;
+$warning-color-700: #B86E00;
+$warning-color-800: #945400;
+$warning-color-900: #703C00;
+
+$danger-color-100: #FFF2F2;
+$danger-color-200: #FFD6D9;
+$danger-color-300: #FFA8B4;
+$danger-color-400: #FF708D;
+$danger-color-500: #FF3D71;
+$danger-color-600: #DB2C66;
+$danger-color-700: #B81D5B;
+$danger-color-800: #94124E;
+$danger-color-900: #700940;
+
+
+//global styles
+body {
+    background-image: url('https://res.cloudinary.com/sasi/image/upload/v1668369498/flair/Frame_12_ubxkru.svg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: 'Inter', sans-serif;
+}
