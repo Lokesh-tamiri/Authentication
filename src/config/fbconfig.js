@@ -1,5 +1,6 @@
-import { initializeApp } from '@firebase/app';
-import {getAuth} from 'firebase/auth'
+import { initializeApp } from "@firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 // var serviceAccount = require("./serviceAccount.json");
 
 const firebaseConfig = {
@@ -8,13 +9,12 @@ const firebaseConfig = {
   projectId: "loginandsignupauth-5b948",
   storageBucket: "loginandsignupauth-5b948.appspot.com",
   messagingSenderId: "579813199254",
-  appId: "1:579813199254:web:46b0319e443af4bbc561b7"
+  appId: "1:579813199254:web:46b0319e443af4bbc561b7",
 };
 
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
+const db = getFirestore(app);
 
-export {
-  auth
-}
+export { auth, db };

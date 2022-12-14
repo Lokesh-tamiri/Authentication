@@ -14,6 +14,7 @@ const Presentation = () => {
             src="https://res.cloudinary.com/sasi/image/upload/v1661591942/flair/Group_7_sdlplq.svg"
             alt="signup"
             className="signupImg"
+            loading="lazy"
           />
         </div>
         <div className="signup-formContainer">
@@ -25,13 +26,23 @@ const Presentation = () => {
                 <label htmlFor="firstName" className="label">
                   First Name *
                 </label>
-                <input id="firstName" type="text" required className="signup-input" />
+                <input
+                  id="firstName"
+                  type="text"
+                  required
+                  className="signup-input"
+                />
               </div>
               <div className="col">
                 <label htmlFor="middleName" className="label">
                   Middle Name *
                 </label>
-                <input id="middleName" type="text" required className="signup-input" />
+                <input
+                  id="middleName"
+                  type="text"
+                  required
+                  className="signup-input"
+                />
               </div>
             </div>
             <div className="row">
@@ -39,13 +50,23 @@ const Presentation = () => {
                 <label htmlFor="lastName" className="label">
                   Last Name *
                 </label>
-                <input id="lastName" type="text" required className="signup-input" />
+                <input
+                  id="lastName"
+                  type="text"
+                  required
+                  className="signup-input"
+                />
               </div>
               <div className="col">
                 <label htmlFor="email" className="label">
                   Email *
                 </label>
-                <input id="email" type="email" required className="signup-input" />
+                <input
+                  id="email"
+                  type="email"
+                  required
+                  className="signup-input"
+                />
               </div>
             </div>
             <div className="row">
@@ -53,7 +74,12 @@ const Presentation = () => {
                 <label htmlFor="phoneNumber" className="label">
                   Phone *
                 </label>
-                <input id="phoneNumber" type="tel" required className="signup-input" />
+                <input
+                  id="phoneNumber"
+                  type="tel"
+                  required
+                  className="signup-input"
+                />
               </div>
               <div className="col">
                 <label htmlFor="gender" className="label">
